@@ -1,9 +1,9 @@
-##REQUETE :
+## REQUETE :
 
 SELECT lot.id, produit.designation,lot.nbrProduits FROM lot INNER JOIN produit ON produit.id = lot.idProduit WHERE lot.etat='6'
 
 
-##RESULTAT : 
+## RESULTAT : 
 
 id designation nbrProduits
 
