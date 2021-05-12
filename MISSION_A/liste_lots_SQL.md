@@ -4,6 +4,7 @@ SELECT lot.id, produit.designation,lot.nbrProduits FROM lot INNER JOIN produit O
 
 
 ##RESULTAT : 
+
 id designation nbrProduits
 1   Crème 25cl     15
 2  Beurre 250gr     20
