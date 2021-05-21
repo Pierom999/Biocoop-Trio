@@ -1,14 +1,22 @@
 ## REQUETE
 
 DROP TRIGGER IF EXISTS check_etat_before_update;
+
 DELIMITER $$
+
 CREATE TRIGGER check_etat_before_update 
+
 BEFORE UPDATE ON lot 
+
 FOR EACH ROW
+
 BEGIN
-  SELECT etat INTO @etat FROM lot WHERE OLD.id=NEW.id;
-    IF @etat=1 AND NEW.etat=4 THEN
-    SIGNAL sqlstate '45000'SET message_text = 'Ce lot doit passer par le statut de lot à éliminer avant le statut d éliminé';
+
+SELECT etat INTO @etat FROM lot WHERE OLD.id=NEW.id;
+
+IF @etat=1 AND NEW.etat=4 THEN
+
+SIGNAL sqlstate '45000'SET message_text = 'Ce lot doit passer par le statut de lot à éliminer avant le statut d éliminé';
 
         ELSEIF @etat=1 AND NEW.etat=6 THEN
     SIGNAL sqlstate '45000'SET message_text = 'Ce lot doit passer par le statut de lot à donner à une association caritative avant le statut de donné à une association caritative';
