@@ -1,0 +1,402 @@
+/* 
+    Document   : style
+    Created on : 15/05/2021 8:00
+    Author     : Vincent
+    Description:
+        Feuille de style Biocoop
+*/ 
+.reinitialise {
+animation : none;
+animation-delay : 0;
+animation-direction : normal;
+animation-duration : 0;
+animation-fill-mode : none;
+animation-iteration-count : 1;
+animation-name : none;
+animation-play-state : running;
+animation-timing-function : ease;
+backface-visibility : visible;
+background : 0;
+background-attachment : scroll;
+background-clip : border-box;
+background-color : transparent;
+background-image : none;
+background-origin : padding-box;
+background-position : 0 0;
+background-position-x : 0;
+background-position-y : 0;
+background-repeat : repeat;
+background-size : auto auto;
+border : 0;
+border-style : none;
+border-width : medium;
+border-color : inherit;
+border-bottom : 0;
+border-bottom-color : inherit;
+border-bottom-left-radius : 0;
+border-bottom-right-radius : 0;
+border-bottom-style : none;
+border-bottom-width : medium;
+border-collapse : separate;
+border-image : none;
+border-left : 0;
+border-left-color : inherit;
+border-left-style : none;
+border-left-width : medium;
+border-radius : 0;
+border-right : 0;
+border-right-color : inherit;
+border-right-style : none;
+border-right-width : medium;
+border-spacing : 0;
+border-top : 0;
+border-top-color : inherit;
+border-top-left-radius : 0;
+border-top-right-radius : 0;
+border-top-style : none;
+border-top-width : medium;
+bottom : auto;
+box-shadow : none;
+box-sizing : content-box;
+caption-side : top;
+clear : none;
+clip : auto;
+color : inherit;
+columns : auto;
+column-count : auto;
+column-fill : balance;
+column-gap : normal;
+column-rule : medium none currentColor;
+column-rule-color : currentColor;
+column-rule-style : none;
+column-rule-width : none;
+column-span : 1;
+column-width : auto;
+content : normal;
+counter-increment : none;
+counter-reset : none;
+cursor : auto;
+direction : ltr;
+display : inline;
+empty-cells : show;
+float : none;
+font : normal;
+font-family : inherit;
+font-size : medium;
+font-style : normal;
+font-variant : normal;
+font-weight : normal;
+height : auto;
+hyphens : none;
+left : auto;
+letter-spacing : normal;
+line-height : normal;
+list-style : none;
+list-style-image : none;
+list-style-position : outside;
+list-style-type : disc;
+margin : 0;
+margin-bottom : 0;
+margin-left : 0;
+margin-right : 0;
+margin-top : 0;
+max-height : none;
+max-width : none;
+min-height : 0;
+min-width : 0;
+opacity : 1;
+orphans : 0;
+outline : 0;
+outline-color : invert;
+outline-style : none;
+outline-width : medium;
+overflow : visible;
+overflow-x : visible;
+overflow-y : visible;
+padding : 0;
+padding-bottom : 0;
+padding-left : 0;
+padding-right : 0;
+padding-top : 0;
+page-break-after : auto;
+page-break-before : auto;
+page-break-inside : auto;
+perspective : none;
+perspective-origin : 50% 50%;
+position : static;
+/* Vous devrez modifier les quotes selon le langage de la page (ici il s'agit du Langage Français) */
+quotes : '201C' '201D' '2018' '2019';
+right : auto;
+tab-size : 8;
+table-layout : auto;
+text-align : inherit;
+text-align-last : auto;
+text-decoration : none;
+text-decoration-color : inherit;
+text-decoration-line : none;
+text-decoration-style : solid;
+text-indent : 0;
+text-shadow : none;
+text-transform : none;
+top : auto;
+transform : none;
+transform-style : flat;
+transition : none;
+transition-delay : 0s;
+transition-duration : 0s;
+transition-property : none;
+transition-timing-function : ease;
+unicode-bidi : normal;
+vertical-align : baseline;
+visibility : visible;
+white-space : normal;
+widows : 0;
+width : auto;
+word-spacing : normal;
+z-index : auto;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;padding: 0;
+  font-family:     Verdana, Geneva, Arial, sans-serif;
+  font-size:       medium;
+  background-color: 	whitesmoke;	 	
+}
+
+header {
+  font-family:     Verdana, Geneva, Arial, sans-serif;
+  font-size:       medium;
+  color: #ffffff;
+  width: 100%;
+  height: 138px;
+  background-color: #0e4194;
+  border-color: #0e4194; 
+}
+
+.navbar {
+  font-family:     Verdana, Geneva, Arial, sans-serif;
+  font-size:       medium;
+  color: #ffffff;
+  width: 100%;
+  min-height: 138px;
+  line-height : normal;
+}
+
+a.navbar-brand{
+  margin: 0px;
+  font-family:     Verdana, Geneva, Arial, sans-serif;
+  font-size:       2.2em;
+  color: #ffffff;
+  line-height : normal;
+}
+
+a.navbar-brand:hover{
+    color: #ffffff;
+}
+a.navbar-brand:pointer{
+    cursor: pointer;
+}
+
+button.navbar-toggler{
+    margin: 10px;
+    line-height: normal;
+    color:#ffffff; font-size:32px; border: 4px solid #ffffff; padding: 5px; border-radius: 10px;
+}
+button.navbar-toggler:hover{
+   border: 4px solid #ffffff;
+   line-height: normal;
+}
+
+.navbar-toggler {
+  position:relative;
+  left: 1px;
+  right:1px;
+  margin: 0 auto;
+}
+.slog{
+    margin-left: 30px;
+}
+.form-control{
+    margin-top: 6px;
+    height: 35px;
+}
+.btn-outline-success{
+    margin-top: 6px;
+    height: 35px;
+    background-color: transparent;
+    border-radius: 8px;
+}
+
+.navbar navbar-expand-lg{
+  width: 100%;
+  background-color: #0e4194;
+  border-color: #0e4194; 
+}
+
+.container-fluid{
+  font-family:     Verdana, Geneva, Arial, sans-serif;
+  font-size:       medium;
+  color: #ffffff;
+  width: 100%;
+  height: 98%;
+  background-color: #0e4194;
+  border-color: #0e4194;
+}
+
+
+
+.m-link{
+     /*float: right;*/
+     /*margin-top: 60px;*/
+     line-height : normal;
+}
+
+
+a.nav-link:hover{
+    color: #ffffff;
+    padding-bottom: 2px;
+    border-bottom: 3px solid #ffffff;
+}
+
+a.nav-link{
+  white-space: nowrap;
+  text-decoration: none;
+  color:           #ffffff;
+  text-align:      center;
+  margin-left: 40px;
+  font-size:       1.3em;
+  border-bottom: 3px solid transparent;
+  transition: all 0.2s ease-in-out
+}
+
+ul.navbar-nav{
+    background-color: #0e4194;
+}
+
+
+h1 {
+  margin: 0;padding: 0px;
+  color:           #333333;
+  /*border-bottom:   thin dotted #888888;*/
+  font-size:       2.2em;
+}
+
+h3 {
+  margin: 0;padding: 0px;
+  color:           #333333;
+  margin-left: 30px;
+  font-size:       1.1em;
+}
+
+/*
+/////////////////////////////Tableau rapport annuel des dons//////////////////////////////
+*/
+section.rapport{
+    margin-top: 0px;
+}
+
+/*
+table {
+  border:          thin solid black;
+  caption-side:    top;
+  border-collapse: collapse;
+  font-size:       medium;
+}
+
+#tableauGeneral td{
+  width:           250px;
+}
+
+td, th {
+  border:          thin dotted grey;
+  padding:         5px;
+}
+ td {
+  text-align:      center;
+}
+*/
+th {
+    background-color: #cccccc;
+ text-align:       center;
+}
+/*
+th.first {
+	background-color: 	#grey20;
+	text-align:			center;
+}
+
+th.second {
+	background-color: 	#D3D3D3;
+	text-align:		center;
+}
+
+caption {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+select {
+    width: 210px;
+}
+
+select.day{
+    width: 50px;
+}
+*/
+/*-------Gestion changement d'écran-----------*/
+
+@media only screen and (max-width: 1000px){
+    .nav-link{
+      
+    }
+    .slog{
+        display: none;
+    }
+    .m-search{
+        display: none;
+    }
+}
+
+/*
+@media only screen and (max-width: 768px){
+    .nav-link{
+      
+    }
+    .slog{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .nav-link{
+      
+    }
+    .slog{
+        display: none;
+    }
+}
+*/
+
+.container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    min-height: 86.5%;
+    font-family:     Verdana, Geneva, Arial, sans-serif;
+    font-size:       medium;
+    color:#333333;
+    background-color: 	#ffffff;	
+}
+
+footer{
+  font-family:     Verdana, Geneva, Arial, sans-serif;
+  font-size:       medium;
+  color: #ffffff;
+  width: 100%;
+  height: 51px;
+  margin-top: -50px;
+  text-align:      left;
+  background-color: #0e4194;
+  border-color: #0e4194; 
+}
+
